@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-parent-image-with-digest-only-toxc
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-837/e2e-tests-parent-image-with-digest-only-toxc@sha256:f95d736cbe70b957991a35e06bdaf820938e6f1e6d4151e06e31d918e3e5ed69
         imagePullPolicy: Always
         name: container-image
         ports:
