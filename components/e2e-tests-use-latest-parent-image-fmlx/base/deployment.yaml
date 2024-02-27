@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: e2e-tests-use-latest-parent-image-fmlx
     spec:
       containers:
-      - image: image
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-837/e2e-tests-use-latest-parent-image-fmlx@sha256:bbb35824cba0bd05bd785723924d07b3b26f9230f4bf43c9e55df99a7824ffe9
         imagePullPolicy: Always
         name: container-image
         ports:
