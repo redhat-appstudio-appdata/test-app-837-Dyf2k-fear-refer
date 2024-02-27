@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: pip-e2e-test-asuj
     spec:
       containers:
-      - image: pip-e2e-test:latest
+      - image: quay.io/redhat-user-workloads/build-templates-e2e/test-app-837/pip-e2e-test-asuj@sha256:281efa7a5ed0293f31b64cb77d883daa2808e3ab04f73ac8dae3afa272b4f23c
         name: pip-e2e-test
         ports:
         - containerPort: 8081
